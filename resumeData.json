@@ -1,0 +1,123 @@
+{
+  "main": {
+    "name":"Juan Nathaniel",
+    "occupation":"Software Engineer (occasional Data Scientist) particularly interested in spatial applications",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"I like building softwares and seeing them come to live! Also enjoyed teasing out insights from the massive chaos of big data",
+    "contactmessage":"I'm more than open to collaborate on interesting projects!",
+    "email": "nathanieljuan@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Singapore",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/uc?export=download&id=1ebCN2jv2ekDHLNnETZRFzCwJVg18crsl",
+    "social":[
+      {
+        "name":"medium",
+        "url":"https://medium.com/@nathanieljuan",
+        "className":"fa fa-medium"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/juan-nathaniel-872234b8/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/juannat95",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"National University of Singapore",
+        "degree":"Bachelor of Environmental Studies (Double Minor in GIS and Economics)",
+        "graduated":"July 2019",
+        "description":"Exposed and intrigued by the world of geospatial engineering and (vision-based) data science"
+      }
+    ],
+    "work":[
+      {
+        "company":"Garuda Robotics",
+        "title":"Application Developer",
+        "years":"July 2019 - Present",
+        "description":[
+          {"desc": "Built geospatial web-apps using MERN stack of web technology"},
+          {"desc": "Implemented RESTful APIs using NodeJS, RabbitMQ, web sockets"}, 
+          {"desc": "Deployed CV applications (tree counting, land-use segmentation, aerial facial recognition)"}
+        ],
+        "link": "https://garuda.io/plantation-4-0/"
+      },
+      {
+        "company":"National University of Singapore",
+        "title":"Research Assistant - Software Engineering (Geospatial)",
+        "years":"October 2018 - January 2019",
+        "description":[
+          {"desc":"Developed Singapore's historical web-apps using JS/HTML/CSS, NodeJS, leaflet & turfJS"},
+          {"desc":"Used Esri's suites of products: ArcGIS API, Esri geodatabase"}
+        ],
+        "link":"http://shgis.nus.edu.sg/"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Cloud Instance Segmentation",
+        "category":"Semantically segment cloud instance using UNet and EfficientNetB2 backbone",
+        "image":"cloud-segmentation.gif",
+        "url":"https://github.com/juannat95/cloud-segmentation"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
