@@ -47,7 +47,7 @@
     "work":[
       {
         "company":"Garuda Robotics",
-        "title":"Application Developer",
+        "title":"Machine Learning Software Engineer",
         "years":"July 2019 - Present",
         "description":[
           {"desc": "Built geospatial web-apps using MERN stack of web technology"},
@@ -105,6 +105,12 @@
         "category":"Semantically segment cloud instance using UNet and EfficientNetB2 backbone",
         "image":"cloud-segmentation.gif",
         "url":"https://github.com/juannat95/cloud-segmentation"
+      },
+      {
+        "title":"Reinforcement Learning in Games",
+        "category":"Collection of intriguing RL models I've built (for training and inference alike)",
+        "image":"tictactoe.png",
+        "url":"https://github.com/juannat95/reinforcement_learning_projects"
       }
     ]
   },
