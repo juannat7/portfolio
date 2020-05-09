@@ -105,6 +105,12 @@
         "category":"Semantically segment cloud instance using UNet and EfficientNetB2 backbone",
         "image":"cloud-segmentation.gif",
         "url":"https://github.com/juannat95/cloud-segmentation"
+      },
+      {
+        "title":"Reinforcement Learning in Games",
+        "category":"Collection of intriguing RL models I've built (for training and inference alike)",
+        "image":"tictactoe.png",
+        "url":"https://github.com/juannat95/reinforcement_learning_projects"
       }
     ]
   },
