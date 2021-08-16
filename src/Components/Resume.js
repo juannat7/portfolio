@@ -12,14 +12,19 @@ class Resume extends Component {
       })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
-            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p><br/>
-            {work.description.map(function(description, index){return <p style={{'line-height': 16}}>{index + 1}. {description.desc}</p>})}
-            <a href={work.link} rel="noopener noreferrer" target="_blank">{work.link}</a><br/><br/>
+            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+            {work.description.map(function(description, index){return <p style={{'line-height': 20}}>{description.desc}</p>})}
+            {work.links.map(function(link, index){return <a href={link.link} style={{marginRight: 20}} rel="noopener noreferrer" target="_blank">{link.desc}</a>})}
+            <br/><br/><br/><br/>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      var pubs = this.props.data.pubs.map(function(pubs){
+        return <div key={pubs.title}><h3>{pubs.title}</h3>
+            <p className="info">{pubs.publication}</p>
+            <p>{pubs.description}</p>
+            {pubs.links.map(function(link, index){return <a href={link.link} style={{marginRight: 20}} rel="noopener noreferrer" target="_blank">{link.desc}</a>})}
+            <br/><br/><br/><br/>
+        </div>
       })
     }
 
@@ -44,11 +49,22 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Experiences</span></h1>
          </div>
 
          <div className="nine columns main-col">
           {work}
+        </div>
+    </div>
+
+    <div className="row pubs">
+
+         <div className="three columns header-col">
+            <h1><span>Publications</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+          {pubs}
         </div>
     </div>
 

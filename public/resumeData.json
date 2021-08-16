@@ -29,8 +29,23 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/juannat95",
+        "url":"http://github.com/juannat7",
         "className":"fa fa-github"
+      },
+      {
+        "name":"twitter",
+        "url": "https://twitter.com/JuanNathaniel6",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "cv",
+        "url": "https://drive.google.com/file/d/1b_JQOZrRsCSs2fQLgUIu7689B4c_BX-F/view?usp=sharing",
+        "className": "fa fa-file-text"
+      },
+      {
+        "name": "email",
+        "url": "mailto:nathanieljuan@gmail.com",
+        "className": "fa fa-envelope"
       }
     ]
   },
@@ -39,32 +54,61 @@
     "education":[
       {
         "school":"National University of Singapore",
-        "degree":"Bachelor of Environmental Studies (Double Minor in GIS and Economics)",
+        "degree":"BS Environmental Studies (Double Minors in GIS and Economics)",
         "graduated":"July 2019",
-        "description":"Exposed and intrigued by the world of geospatial engineering and (vision-based) data science"
+        "description":"Graduated First Class with Honours, Highest Distinction."
       }
     ],
     "work":[
       {
+        "company":"Singapore Management University, School of Computing and Information Systems",
+        "title":"Research Engineer",
+        "years":"June 2020 - May 2021",
+        "description":[
+          {"desc": "Under the supervision of Prof. Zheng Baihua @SMU-CMU Living Analytics Research Center, I studied how graph neural network could be used to optimize the usage of public transportation in urban Singapore"}
+        ],
+        "links": [
+          {"desc":"Prof Zheng Baihua's Lab", "link": "https://scis.smu.edu.sg/faculty/profile/521/zheng-baihua"},
+          {"desc":"Living Analytics Research Center", "link": "https://larc.smu.edu.sg/"}
+        ]
+      },
+      {
         "company":"Garuda Robotics",
         "title":"Machine Learning Software Engineer",
-        "years":"July 2019 - Present",
+        "years":"July 2019 - May 2020",
         "description":[
-          {"desc": "Built geospatial web-apps using MERN stack of web technology"},
-          {"desc": "Implemented RESTful APIs using NodeJS, RabbitMQ, web sockets"}, 
-          {"desc": "Deployed CV applications (tree counting, land-use segmentation, aerial facial recognition)"}
+          {"desc": "I developed and deployed multiple AI/Computer Vision applications (agriculture, urban analytics, and autonomous navigation)"}
         ],
-        "link": "https://garuda.io/plantation-4-0/"
+        "links": [
+          {"desc":"AI in Agriculture", "link": "https://garuda.io/plantation"},
+          {"desc":"Urban Analytics", "link": "https://garuda.io/facilities/"},
+          {"desc":"Aerial Autonomous Vehicle Navigation", "link": "https://garuda.io/safedistance"}
+        ]
       },
       {
         "company":"National University of Singapore",
-        "title":"Research Assistant - Software Engineering (Geospatial)",
+        "title":"Undergraduate Research Assistant",
         "years":"October 2018 - January 2019",
         "description":[
-          {"desc":"Developed Singapore's historical web-apps using JS/HTML/CSS, NodeJS, leaflet & turfJS"},
-          {"desc":"Used Esri's suites of products: ArcGIS API, Esri geodatabase"}
+          {"desc":"I assisted in the development of Singapore's historical geospatial web-apps under the supervision of Dr Yan Yingwei. We also presented a study on the dynamics of urban air pollution at the International Statistical Institute (ISI) World Congress 2019, where we received the top-10 best research awards"}
         ],
-        "link":"http://shgis.nus.edu.sg/"
+        "links": [
+          {"desc":"Singapore Historical Geospatial Asset", "link": "http://shgis.nus.edu.sg/"},
+          {"desc":"Dr. Yan Yingwei GIS Lab @ NUS", "link": "https://profile.nus.edu.sg/fass/geoyy/"},
+          {"desc":"ISI World Congress Work", "link": "https://maps4stats.maps.arcgis.com/apps/MapJournal/index.html?appid=edb7f9ad743a4bf5b27303277774ae50"}
+        ]
+      }
+    ],
+    "pubs":[
+      {
+        "title":"Bias-Correction of Global Climate Model Using Machine Learning Algorithms",
+        "repo":"https://eartharxiv.org/repository/view/1879/",
+        "publication":"Neural Information Processing Systems (NeurIPS), 2020",
+        "description": "We utilized tree-based machine learning algorithms to correct the bias of ERA5 re-analysis model against de-noised ground-truth observation data in tropical Indonesia",
+        "links": [
+          {"desc":"paper", "link": "https://eartharxiv.org/repository/view/1879/"},
+          {"desc":"talk", "link": "https://slideslive.com/38941729/bias-correction-of-gcm-in-the-tropics"}
+        ]
       }
     ],
     "skills":[
@@ -101,28 +145,22 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Cloud Instance Segmentation",
-        "category":"Semantically segment cloud instance using UNet and EfficientNetB2 backbone",
-        "image":"cloud-segmentation.gif",
-        "url":"https://github.com/juannat95/cloud-segmentation"
+        "title":"PyTorch Earth Vision",
+        "desc":"Earth Vision is a PyTorch-extended wrapper to solve computer vision tasks particularly in the field of satellite imagery.",
+        "image":"earth.jpg",
+        "url":"https://github.com/jakartaresearch/earth-vision"
       },
       {
-        "title":"Reinforcement Learning in Games",
-        "category":"Collection of intriguing RL models I've built (for training and inference alike)",
-        "image":"tictactoe.png",
-        "url":"https://github.com/juannat95/reinforcement_learning_projects"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "title":"SEA Relief",
+        "desc":"SEA Relief is an NGO I founded with the aim of raising the awareness for extreme events through education and outreach.",
+        "image":"searelief.jpg",
+        "url":"https://searelief-eta.vercel.app/"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "title":"Jakarta AI Research",
+        "desc":"We strive to foster a community of AI-for-good researchers in Indonesia through blogs, talks, and open-source projects.",
+        "image":"jair.jpeg",
+        "url":"https://jakartaresearch.github.io/"
       }
     ]
   }
